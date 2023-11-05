@@ -19,14 +19,40 @@
   </head>
   <body>
     <div class="container">
-        <div class="content">
-            <div class="success">
-                <button class="btn sucess-btn" type="button">Submit</button>
-                .
+      <div class="content">
+        <div class="success">
+          <button class="btn success-btn" type="button">Submit</button>
+          <div class="success-modal modal">
+            <div class="modal-icon success-icon">
+              <i class="fa-solid fa-check"></i>
             </div>
+            <div class="modal-top">
+              <h1>Success!</h1>
+            </div>
+            <div class="modal-bottom modal-bottom-success">
+              <button class="modal-btn" type="button">Go Ahead</button>
+            </div>
+          </div>
         </div>
+        <div class="fail">
+          <button class="btn fail-btn" type="button">Submit</button>
+          <div class="fail-modal modal">
+            <div class="modal-icon fail-icon">
+              <i class="fa-solid fa-x"></i>
+            </div>
+            <div class="modal-top">
+              <h1>Fail!</h1>
+            </div>
+            <div class="modal-bottom modal-bottom-fail">
+              <button class="modal-btn" type="button">Try Again</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
+    <script src="script.js"></script>
+  </body>
+</html>
 
 
 
